@@ -126,15 +126,6 @@ aligns them to right on large screen by use of a media query */
   font-size: 15px;
   /* font-weight: bold; */
 }
-/* .illustration-img-container {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.illustration-img {
-  height: 222px;
-  width: 508px;
-} */
 
 /* for Desktops, Laptops */
 @media (min-width: 1025px) {
