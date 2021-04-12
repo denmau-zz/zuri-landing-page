@@ -1,68 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Zuri International</title>
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="css/bootstrap.min.css"/>
-  <!-- custom css -->
-  <link rel="stylesheet" href="css/style.css"/>
-</head>
-<body>
-<!-- Navigation start -->
-<div class="container-fluid">
-  <div class="container nav-container">
-    <div class="col-sm-12 col-md-6">
-      <img
-              class="i4g-logo"
-              src="img/i4g-logo.svg"
-              alt="Ingressive For Good"
-      />
-      <img
-              class="zuri-training-logo"
-              src="img/zuri-training-logo.svg"
-              alt="Zuri Training"
-      />
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuri International</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
 
-    <div class="col-sm-12 col-md-6 totheright">
-      <a href="#login" class="log-in-btn">Log in</a>
-      <a href="#signup" class="btn btn-primary sign-up-btn">Sign Up</a>
-    </div>
-  </div>
-</div>
-<!-- Navigation end -->
+    <!-- Google Font - Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation start -->
+    <div class="container-fluid">
+      <div class="container nav-container">
+        <div class="col-sm-12 col-md-6">
+          <img
+            class="i4g-logo"
+            src="img/i4g-logo.svg"
+            alt="Ingressive For Good"
+          />
+          <img
+            class="zuri-training-logo"
+            src="img/zuri-training-logo.svg"
+            alt="Zuri Training"
+          />
+        </div>
 
-<div class="container-fluid hero-background d-flex align-items-center">
-  <div class="container hero">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="mb-3">
-          <h2 class="hero-title">Welcome to Zuri Training</h2>
-        </div>
-        <br/>
-        <div class="mb-3">
-          <p class="hero-desc">
-            Gain access to knowledge that will help you begin your career in
-            the tech industry
-          </p>
-        </div>
-        <br/>
-        <div class="mb-3">
-          <a href="#signup" class="btn btn-primary CTA">Get Started</a>
+        <div class="col-sm-12 col-md-6 totheright">
+          <a href="#" class="log-in-btn">Log in</a>
+          <a href="#signup-form" class="btn btn-primary sign-up-btn">Sign Up</a>
         </div>
       </div>
-      <div class="col-md-6 illustration-img-container">
-        <!--                <img class="illustration-img" src="./img/illustration.svg" alt="">-->
-      </div>
     </div>
-  </div>
-  <!--    illustration image added by CSS-->
-</div>
+    <!-- Navigation end -->
 
-<!--Bootstrap-->
-<script src="js/bootstrap.bundle.js"></script>
-</body>
+    <div class="container-fluid hero-background d-flex align-items-center">
+      <div class="container hero">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <h2 class="hero-title">
+                Welcome to Zuri Training's landing page
+              </h2>
+            </div>
+            <br />
+            <div class="mb-3">
+              <p class="hero-desc">
+                Gain access to knowledge that will help you begin your career in
+                the tech industry
+              </p>
+            </div>
+            <br />
+            <div class="mb-3">
+              <a href="#signup-form" class="btn btn-primary CTA">Get Started</a>
+            </div>
+          </div>
+          <div class="col-md-6 illustration-img-container">
+            <!-- <img class="illustration-img" src="./img/illustration.svg" alt=""> -->
+            <div class="contact-form-container">
+              <form action="#" id="signup-form">
+                <h2 class="text-center">Get Started</h2>
+                <div class="mb-2 mx-5">
+                  <label for="username" class="form-label">username</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputUsername"
+                    placeholder="Username"
+                  />
+                </div>
+                <div class="mb-2 mx-5">
+                  <label for="inputUsernmae" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="mb-2 mx-5">
+                  <label for="inputPassword" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button
+                    type="submit"
+                    class="mb-4 mx-5 btn btn-primary sign-up-form-btn"
+                  >
+                    Sign up for Zuri
+                  </button>
+                </div>
+                <div class="mx-5 termsandconditions">
+                  By clicking “Sign up for Zuri”, you agree to our terms and
+                  conditions.
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--    illustration image added by CSS-->
+    </div>
+
+    <!--Bootstrap-->
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
 </html>

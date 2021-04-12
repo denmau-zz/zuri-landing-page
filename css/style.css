@@ -37,13 +37,13 @@ aligns them to right on large screen by use of a media query */
   text-decoration: none;
   color: black;
   font-size: 25px;
-  font-family: Roboto, serif;
+  font-family: "Roboto", sans-serif;
   margin-right: 10px;
 }
 
 .sign-up-btn {
   color: white;
-  font-family: Roboto, serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   background-color: #5542ca;
   border-color: #5542ca;
@@ -53,7 +53,7 @@ aligns them to right on large screen by use of a media query */
 
 .hero {
   color: white;
-  font-family: Roboto, serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   /*align-items: center;*/
   justify-content: center;
@@ -90,7 +90,43 @@ aligns them to right on large screen by use of a media query */
   padding: 10px 20px;
 }
 
-.illustration-img-container {
+.contact-form-container {
+  height: 485px;
+  width: 411px;
+  border-radius: 5px;
+  background-color: white;
+  align-self: flex-end;
+}
+
+.contact-form-container h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-top: 1rem;
+  color: #100000;
+}
+
+.contact-form-container input {
+  border-color: #f94b04;
+  color: #dbd9d9;
+}
+
+.sign-up-form-btn {
+  margin-top: 40px;
+  margin-left: 5em;
+  align-content: center;
+  background-color: #b21b14;
+  border-color: #b21b14;
+  color: white;
+  text-align: center;
+}
+
+.termsandconditions {
+  color: #cfcfcf;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+/* .illustration-img-container {
   display: flex;
   justify-content: flex-end;
 }
@@ -98,7 +134,7 @@ aligns them to right on large screen by use of a media query */
 .illustration-img {
   height: 222px;
   width: 508px;
-}
+} */
 
 /* for Desktops, Laptops */
 @media (min-width: 1025px) {
