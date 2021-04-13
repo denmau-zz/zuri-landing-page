@@ -1,121 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Zuri International</title>
     <!-- bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
 
     <!-- Google Font - Roboto -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
     />
-  </head>
-  <body>
-    <!-- Navigation start -->
-    <div class="container-fluid">
-      <div class="container nav-container">
+</head>
+<body>
+<!-- Navigation start -->
+<div class="container-fluid">
+    <div class="container nav-container">
         <div class="col-sm-12 col-md-6">
-          <img
-            class="i4g-logo"
-            src="img/i4g-logo.svg"
-            alt="Ingressive For Good"
-          />
-          <img
-            class="zuri-training-logo"
-            src="img/zuri-training-logo.svg"
-            alt="Zuri Training"
-          />
+            <img
+                    class="i4g-logo"
+                    src="img/i4g-logo.svg"
+                    alt="Ingressive For Good"
+            />
+            <img
+                    class="zuri-training-logo"
+                    src="img/zuri-training-logo.svg"
+                    alt="Zuri Training"
+            />
         </div>
 
         <div class="col-sm-12 col-md-6 totheright">
-          <a href="#" class="log-in-btn">Log in</a>
-          <a href="#signup-form" class="btn btn-primary sign-up-btn">Sign Up</a>
+            <a href="#" class="log-in-btn">Log in</a>
+            <a href="#signup-form" class="btn btn-primary sign-up-btn">Sign Up</a>
         </div>
-      </div>
     </div>
-    <!-- Navigation end -->
+</div>
+<!-- Navigation end -->
 
-    <div class="container-fluid hero-background d-flex align-items-center">
-      <div class="container hero">
+<div class="container-fluid hero-background d-flex align-items-center">
+    <div class="container hero">
         <div class="row">
-          <div class="col-md-6">
-            <div class="mb-3">
-              <h2 class="hero-title">
-                Welcome to Zuri Training's landing page
-              </h2>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <h2 class="hero-title">
+                        Welcome to Zuri Training's landing page
+                    </h2>
+                </div>
+                <br/>
+                <div class="mb-3">
+                    <p class="hero-desc">
+                        Gain access to knowledge that will help you begin your career in
+                        the tech industry
+                    </p>
+                </div>
+                <br/>
+                <div class="mb-3">
+                    <a href="#signup-form" class="btn btn-primary CTA">Get Started</a>
+                </div>
             </div>
-            <br />
-            <div class="mb-3">
-              <p class="hero-desc">
-                Gain access to knowledge that will help you begin your career in
-                the tech industry
-              </p>
-            </div>
-            <br />
-            <div class="mb-3">
-              <a href="#signup-form" class="btn btn-primary CTA">Get Started</a>
-            </div>
-          </div>
-          <div class="col-md-6 illustration-img-container">
-            <div class="contact-form-container">
-              <form action="#" id="signup-form">
-                <h2 class="text-center">Get Started</h2>
-                <div class="mb-2 mx-5">
-                  <label for="username" class="form-label">username</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputUsername"
-                    placeholder="Username"
-                  />
-                </div>
-                <div class="mb-2 mx-5">
-                  <label for="inputUsernmae" class="form-label"
-                    >Email address</label
-                  >
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="inputEmail"
-                    placeholder="Email"
-                  />
-                </div>
-                <div class="mb-2 mx-5">
-                  <label for="inputPassword" class="form-label">Password</label>
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="inputPassword"
-                    placeholder="Password"
-                  />
-                </div>
-                <div class="d-flex justify-content-center">
-                  <button
-                    type="submit"
-                    class="mb-4 mx-5 btn btn-primary sign-up-form-btn"
-                  >
-                    Sign up for Zuri
-                  </button>
-                </div>
-                <div class="mx-5 termsandconditions">
-                  By clicking “Sign up for Zuri”, you agree to our terms and
-                  conditions.
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            <div class="col-md-6 illustration-img-container">
+                <div class="contact-form-container">
+                    <form action="#" id="signup-form">
+                        <h2 class="text-center">Get Started</h2>
+                        <div class="mb-2 mx-5">
+                            <label for="inputUsername" class="form-label">username</label>
+                            <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputUsername"
+                                    placeholder="Username"
+                                    name="username"
+                                    required
+                            />
+                        </div>
+                        <div class="mb-2 mx-5">
+                            <label for="inputEmail" class="form-label"
+                            >Email address</label
+                            >
+                            <input
+                                    type="email"
+                                    class="form-control"
+                                    id="inputEmail"
+                                    placeholder="Email"
+                                    name="email"
+                                    required
+                            />
+                        </div>
+                        <div class="mb-2 mx-5">
+                            <label for="selectTrack" class="form-label"
+                            >Track</label
+                            >
+                            <select class="form-select" aria-label="select a track" name="Track" id="selectTrack" required>
+                                <option selected>Track</option>
+                                <option value="backend">Back End</option>
+                                <option value="frontend">Front End</option>
+                                <option value="design">Design</option>
+                                <option value="mobile">Mobile</option>
+                            </select>
+                        </div>
+                        <div class="mb-2 mx-5">
+                            <label for="selectExperience" class="form-label"
+                            >Experience Level</label
+                            >
+                            <select class="form-select" aria-label="select a track" name="Track" id="selectExperience" required>
+                                <option selected>Experience Level</option>
+                                <option value="none">None</option>
+                                <option value="beginner">Beginner</option>
+                                <option value="midlevel">Mid-Level</option>
+                                <option value="expert">Expert</option>
 
-    <!--Bootstrap-->
-    <script src="js/bootstrap.bundle.js"></script>
-  </body>
+                            </select>
+                        </div>
+                        <div class="mb-2 mx-5">
+                            <label for="inputPassword" class="form-label"
+                            >Password</label
+                            >
+                            <input
+                                    type="password"
+                                    class="form-control"
+                                    id="inputPassword"
+                                    placeholder="Password"
+                                    name="password"
+                                    required
+                            />
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <button
+                                    type="submit"
+                                    class="mb-4 mx-5 btn btn-primary sign-up-form-btn"
+                            >
+                                Sign up for Zuri
+                            </button>
+                        </div>
+                        <div class="mx-5 mb-5 termsandconditions">
+                            By clicking “Sign up for Zuri”, you agree to our terms and
+                            conditions.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Bootstrap-->
+<script src="js/bootstrap.bundle.js"></script>
+</body>
 </html>
